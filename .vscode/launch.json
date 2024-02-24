@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "OBJECT_Class.Demo",
+            "projectName": "JAVA_f1681002"
+        },
+        {
+            "type": "java",
+            "name": "FinalKeyword",
+            "request": "launch",
+            "mainClass": "FinalKeyword",
+            "projectName": "JAVA_f1681002"
+        },
+        {
+            "type": "java",
+            "name": "DynamicMethodDispatch",
+            "request": "launch",
+            "mainClass": "Polymorphism.DynamicMethodDispatch",
+            "projectName": "JAVA_f1681002"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Packages.Demo",
+            "projectName": "JAVA_f1681002"
+        },
+        {
+            "type": "java",
             "name": "IntroArray",
             "request": "launch",
             "mainClass": "IntroArray",
