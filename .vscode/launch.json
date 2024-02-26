@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InnerAbstract",
+            "request": "launch",
+            "mainClass": "AbstractKeyword.InnerAbstract",
+            "projectName": "JAVA_f1681002"
+        },
+        {
+            "type": "java",
+            "name": "DemoAbstract",
+            "request": "launch",
+            "mainClass": "AbstractKeyword.DemoAbstract",
+            "projectName": "JAVA_f1681002"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "InnerClass.Demo",
+            "projectName": "JAVA_f1681002"
+        },
+        {
+            "type": "java",
+            "name": "DemoMain",
+            "request": "launch",
+            "mainClass": "Casting.DemoMain",
+            "projectName": "JAVA_f1681002"
+        },
+        {
+            "type": "java",
             "name": "Demo",
             "request": "launch",
             "mainClass": "OBJECT_Class.Demo",

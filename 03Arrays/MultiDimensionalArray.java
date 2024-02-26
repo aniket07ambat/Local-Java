@@ -19,6 +19,13 @@ public class MultiDimensionalArray {
             }
             System.out.println();
         }
+
+        for(int i[] : num1) {
+            for(int j: i) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        } 
     }
     
 }

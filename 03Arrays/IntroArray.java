@@ -13,10 +13,15 @@ public class IntroArray {
         int num2[] = new int[2];
         num2[0] = 9;
         num2[1] = 90;
-
-        for (int index = 0; index < num2.length; index++) {
+        int length = num2.length;
+        for (int index = 0; index < length; index++) {
             System.out.println(num2[index]);
         }
+
+        String num3[] = new String[3];
+
+        String names[] = {"Aniket", "DFS", "DP"};
+        System.out.println(names[0]);
     }
 }
 // int num[][] = new int[3][4] 

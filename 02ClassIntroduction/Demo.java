@@ -2,7 +2,6 @@
 //First, he knows means it has some properties.
 //Second. He does things. behavior
 
-import Inheritance.Calculator;
 
 class Calculator {
     int a;

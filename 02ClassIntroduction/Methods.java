@@ -15,7 +15,7 @@ class Computer {
 
 class MethodOverriding {
     public int add(int n1, int n2, int n3) {
-        return n1 + n2;
+        return n1 + n2 + n3;
     }
 
     public int add(int n1, int n2) {
@@ -38,10 +38,10 @@ public class Methods {
 
         MethodOverriding obj = new MethodOverriding();
         
-        int result = obj.add(3, 8);
+        int result = obj.add(3, 8, 3);
         System.out.println(result);
 
-        int result2 = obj.add(4, 13234);
+        double result2 = obj.add(4, 13234.123);
         System.out.println(result2);
 
         
