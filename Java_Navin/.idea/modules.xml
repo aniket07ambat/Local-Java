@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00Practice/00Practice.iml" filepath="$PROJECT_DIR$/00Practice/00Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08Enum/08Enum.iml" filepath="$PROJECT_DIR$/08Enum/08Enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Navin.iml" filepath="$PROJECT_DIR$/Java_Navin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NINE_LambdaExpressions/NINE_LambdaExpressions.iml" filepath="$PROJECT_DIR$/NINE_LambdaExpressions/NINE_LambdaExpressions.iml" />
+    </modules>
+  </component>
+</project>
