@@ -57,6 +57,13 @@ class Calculator {
         }
         System.out.println(n + " is prime number.");
     }
+
+    public int factorial(int n) {
+        if(n <= 0) {
+            return 1;
+        }
+        return factorial(n - 1 ) * n;
+    }
 }
 
 public class One_practice {
@@ -81,7 +88,9 @@ public class One_practice {
 
         // obj2.largestNumber(students);
 
+        System.out.println(obj1.factorial(4));
 
+        
 
     }
 }
