@@ -3,7 +3,7 @@
 class A { 
 
     public A() {
-        super();
+        super(); // super is always present Even if you don't mention it.
         System.out.println("in  default constructor A");
     }
  
@@ -24,8 +24,8 @@ class B extends A{   // class B is subclass.
     }
 
     public B(int a) {
-        this();  // this()  : Will execute the constructor of same class.
-        // super(5);
+        // this();  // this()  : Will execute the constructor of same class.
+        super(5);
         System.out.println("in paraparameterized constructor B");
         
     } 

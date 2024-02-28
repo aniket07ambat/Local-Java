@@ -17,9 +17,9 @@ class Final_B {
 }
 
 class Final_C extends Final_B {
-    // public void show() {
-    //     System.out.println("Why he use final keyword Now I can't steal its work.");
-    // }
+    public void show() {
+        System.out.println("Why he use final keyword Now I can't steal its work.");
+    }
 }
 public class FinalKeyword {
     public static void main(String[] args) {
@@ -27,8 +27,14 @@ public class FinalKeyword {
         // final variable
         final int a = 4;  // Here we make a as const variable.
         // a = 5; // This gives error.
-        Final_C obj = new Final_C();
-        obj.add(2, 4);
+        // Final_C obj = new Final_C();
+        // obj.add(2, 4);
+        // // obj.show();
+
+        Final_B obj2 = new Final_B();
+        obj2.add(4, 6);
+        obj2.show();
+        
         
 
     }
