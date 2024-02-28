@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // HashSet has random elements.
-
+// All operations generallly in T.C: O(1)
 public class IntroHashSet {
     public static void main(String[] args) {
          

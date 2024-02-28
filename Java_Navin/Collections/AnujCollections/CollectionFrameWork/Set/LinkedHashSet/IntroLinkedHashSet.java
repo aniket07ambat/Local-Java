@@ -1,7 +1,7 @@
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-// If we use TreeSet it sorterd our elements like binary Search Tree.
+// If we use TreeSet it sorterd our elements like binary Search Tree. T.C : O(log n )
 
 // LinkedHashSet if print gives elements as how we add in set . Not in random order.
 
